@@ -17,7 +17,7 @@ decision = int(input(f"What would you like to do with this number:\n0) Get the a
 match decision:
     case 0:
         nomber0 = nomber * (-1)
-        print(f"The additive of {nomber} is {nomber0:0.2f}")
+        print(f"The additive inverse of {nomber} is {nomber0:0.1f}")
     case 1:
         if nomber == 0:
             print("Cannot divide by 0!")
