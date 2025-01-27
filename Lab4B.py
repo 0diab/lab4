@@ -17,19 +17,19 @@ decision = int(input(f"What would you like to do with this number:\n0) Get the a
 match decision:
     case 0:
         nomber0 = nomber * (-1)
-        print(f"The additive {nomber} is {nomber0:0.3f}")
+        print(f"The additive {nomber} is {nomber0:0.1f}")
     case 1:
         if nomber == 0:
-            print("Cannot devide by 0!")
+            print("Cannot divide by 0!")
         else:
             nomber1 = 1/nomber
-            print(f"The reciprocal of {nomber} is {nomber1:0.3f}")
+            print(f"The reciprocal of {nomber} is {nomber1:0.1f}")
     case 2:
         nomber2 = nomber**2
-        print(f"the square of {nomber} is {nomber2:0.3f}")
+        print(f"the square of {nomber} is {nomber2:0.1f}")
     case 3:
         nomber3 = nomber**3
-        print(f"The cube of {nomber} is {nomber3:0.3f}")
+        print(f"The cube of {nomber} is {nomber3:0.1f}")
     case 4:
         print("Thank you, goodbye!")
     case _:
