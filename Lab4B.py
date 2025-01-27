@@ -17,13 +17,13 @@ decision = int(input(f"What would you like to do with this number:\n0) Get the a
 match decision:
     case 0:
         nomber0 = nomber * (-1)
-        print(f"The additive {nomber} is {nomber0:0.1f}")
+        print(f"The additive of {nomber} is {nomber0:0.2f}")
     case 1:
         if nomber == 0:
             print("Cannot divide by 0!")
         else:
-            nomber1 = 1/nomber
-            print(f"The reciprocal of {nomber} is {nomber1:0.1f}")
+            nomber1 = nomber**-1
+            print(f"The reciprocal of {nomber} is {nomber1:0.3f}")
     case 2:
         nomber2 = nomber**2
         print(f"the square of {nomber} is {nomber2:0.1f}")
